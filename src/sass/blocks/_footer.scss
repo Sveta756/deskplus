@@ -1,0 +1,54 @@
+.footer {
+    position: relative;
+    min-height: 749px;
+    background: #152242;
+    padding-bottom: 30px;
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__card {
+        display: flex;
+        flex-direction: column;
+    }
+    &__card-title {
+        font-weight: 750;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    &__link {
+        font-weight: 350;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-top: 20px;
+        &_social {
+            font-size: 28px;
+            margin-right: 25px;
+        }
+    }
+    &__text {
+        font-weight: 350;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    &__line {
+        height: 1px;
+        background: rgba(255, 255, 255, 0.15);
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    &__pay {
+        display: flex;
+        justify-content: flex-end;
+    }
+    &__icon-pay {
+        margin-left: 8px;
+    }
+}

@@ -1,0 +1,23 @@
+.furniture {
+    min-height: 400px;
+    padding: 75px 0 180px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        position: relative;
+        display: block;
+        width: 496px;
+
+    }
+    &__dots {
+        position: absolute;
+        right: -33px;
+        bottom: -81px;
+        z-index: -1;
+    }
+    &__image {
+        width: 100%;
+    }
+}

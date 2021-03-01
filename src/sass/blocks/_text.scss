@@ -1,0 +1,13 @@
+.text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #B1B6CA;
+    &_info {
+        margin-top: 45px;
+    }
+    &_center {
+        text-align: center;
+        margin-top: 51px;
+    }
+}

@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@import 'base/fonts';
+@import 'base/variables';
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/text';
+@import 'blocks/_btns';
+@import 'blocks/title';
+@import 'blocks/goods';
+@import 'blocks/furniture';
+@import 'blocks/video';
+@import 'blocks/advantages';
+@import 'blocks/info';
+@import 'blocks//footer';
+@import 'blocks/workplace';
+@import 'blocks/modal-video';

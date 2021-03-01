@@ -1,0 +1,16 @@
+.info {
+    width: 448px;
+    min-height: 324px;
+    display: flex;
+    flex-direction: column;
+    &__subtitle {
+        font-size: 18px;
+        line-height: 34px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #000000;
+    }
+    &_mini {
+        min-height: 100px;
+    }
+}

@@ -1,0 +1,57 @@
+.overlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, .56);
+    z-index: 5;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    min-height: 315px;
+    z-index: 8;
+    &__wrapper {
+        width: 650px;
+        height: 315px;
+        position: relative;
+    }
+    &__close {
+        color: #fff;
+        font-size: 36px;
+        position: absolute;
+        top: -27px;
+        right: -15px;
+        cursor: pointer;
+    }
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.block {
+    display: flex;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}

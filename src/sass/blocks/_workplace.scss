@@ -1,0 +1,48 @@
+.workplace {
+    position: relative;
+    top: -129px;
+    padding: 75px 161px 87px;
+    background: #F8F8F8;
+    min-height: 426px;
+    width: 100%;
+    &__title {
+        position: relative;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 48px;
+        color: $main-color;
+        text-align: center;
+        &:after {
+            content: "";
+            display: flex;
+            width: 154px;
+            height: 6px;
+            position: absolute;
+            bottom: -16px;
+            right:0; 
+            left: 0;
+            margin: auto;
+            background: $main-color;
+        }
+    }
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #075DB0;
+        width: 100%;
+        background: #FFFFFF;
+        padding: 8px 8px 8px 30px;
+        margin-top: 40px;
+    }
+    &__input {
+        width: 100%;
+        // padding: 15px;
+        background: #FFFFFF;
+        border: none;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 16px;
+        color: #706464;
+        outline: none;
+    }
+}

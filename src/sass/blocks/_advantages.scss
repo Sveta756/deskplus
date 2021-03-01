@@ -1,0 +1,83 @@
+.advantages {
+    min-height: 660px;
+    padding: 168px 0 353px 0;
+    &__cards {
+        display: flex;
+        margin-top: 60px;
+        margin-bottom: 146px;
+    }
+    &__card {
+        display: flex;
+        margin-right: 30px;
+        width: 375px;
+        min-height: 150px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &__img-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 96px;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.07);
+        border-radius: 50%;
+        margin-right: 16px;
+    }
+    &__card-title {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #000000;
+    }
+    &__luxroom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__images {
+        position: relative;
+        width: 487px;
+        height: 608px;
+        background: url('../img/table.jpg') center (center/cover) no-repeat;
+        margin-right: 55px;
+    }
+    &__discount {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 230px;
+        height: 216px;
+        background: rgba(8, 60, 110, 0.8);
+        border-radius: 0px 0px 200px 0px;
+        font-weight: 600;
+        font-size: 62px;
+        line-height: 60px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 31px;
+        padding-left: 30px;
+    }
+    &__dots {
+        position: absolute;
+        left: -80px;
+        bottom: -81px;
+        z-index: -1;
+    }
+    &__circle {
+        position: absolute;
+        bottom: -78px;
+        right: -51px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 342px;
+        height: 342px;
+        transform: rotate(-10deg);
+        border: 5px solid #ffffff;
+        border-radius: 50%;
+        background: url('../img/sofa.jpg') center (center/cover) no-repeat;
+    }
+}

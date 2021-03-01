@@ -1,0 +1,24 @@
+.btn {
+    min-width: 195px;
+    height: 56px;
+    background: $main-color;
+    border: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+    &_search {
+        font-size: 14px;
+        min-width: 138px;
+        height: 51px;
+    }
+    &_order {
+        display: block;
+        width: 223px;
+        min-height: 56px;
+        margin-top: 50px;
+    }
+}
