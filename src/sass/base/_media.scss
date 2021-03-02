@@ -177,12 +177,11 @@
             margin-top: 25px;
         }
     }
-    .modal {
+    .modal-video {
         width: 500px;
-        &__wrapper {
-            width: 520px;
-        }
+        height: 320px;
     }
+
 }
 
 @media (max-width: 575px) {
@@ -329,15 +328,13 @@
             margin-top: 5px;
         }
     }
-    .modal {
-        width: 280px;
-        min-height: 215px;
-        &__wrapper {
-            width: 300px;
-            height: 215px;
-        }
-        &__close {
-            right: -10px;
-        }
+    .modal-video {
+        width: 300px;
+        height: 220px;
     }
+    .close {
+        top: -30px;
+        right: -10px;
+    }
+
 }

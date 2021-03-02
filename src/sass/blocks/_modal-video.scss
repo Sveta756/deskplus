@@ -10,27 +10,18 @@
     z-index: 5;
 }
 
-.modal {
+.modal-video {
+    width: 640px;
+    height: 360px;
+    position: relative;
+}
+.close {
+    color: #fff;
+    font-size: 36px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 560px;
-    min-height: 315px;
-    z-index: 8;
-    &__wrapper {
-        width: 650px;
-        height: 315px;
-        position: relative;
-    }
-    &__close {
-        color: #fff;
-        font-size: 36px;
-        position: absolute;
-        top: -27px;
-        right: -15px;
-        cursor: pointer;
-    }
+    top: -27px;
+    right: -25px;
+    cursor: pointer; 
 }
 
 @-webkit-keyframes fade {
